@@ -1,0 +1,352 @@
+{
+	"pages": [
+		// 登录页面
+		{
+			"path": "pages/login/login",
+			"style": {}
+		},
+		// 注册页面
+		{
+			"path": "pages/login/register",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/login/recommendSelect",
+			"style": {
+			}
+		},
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/bookmanager/index",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/home/home",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/bookmanager/bookEntry",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/bookmanager/bookBorrow",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/bookmanager/message",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/bookmanager/messageList2",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/message/messageList",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/bookrack/bookrack",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/bookrack/reading",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/home/reading",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/tabbar-3/tabbar-3",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar/message/message",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/mine/mine",
+			"style": {
+				// "enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/mine/setting",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/mine/debit",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/mine/forward",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar/mine/addForward",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"popGesture": "none",
+					"titleNView": false,
+					"bounce": "none",
+					"pullToRefresh": {
+						"style": "circle",
+						"offset": "100px"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-release/tabbar-3-release",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-video/tabbar-3-video",
+			"style": {}
+		},
+		{
+			"path": "pages/tabbar-3-detial/tabbar-3-qa/tabbar-3-qa",
+			"style": {}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "blue",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"borderStyle": "blue",
+		"backgroundColor": " #00aded",
+		"color": "#8F8F94",
+		"selectedColor": "#f33e54",
+		"list": [{
+				"pagePath": "pages/tabbar/home/home",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/tabbar/bookrack/bookrack",
+				"iconPath": "static/img/tabbar/guanzhu.png",
+				"selectedIconPath": "static/img/tabbar/guanzhuactive.png",
+				"text": "书架"
+			},
+			//#ifdef MP-WEIXIN
+			{
+				"pagePath": "pages/tabbar/tabbar-3/tabbar-3",
+				"iconPath": "static/img/tabbar/add.png",
+				"selectedIconPath": "static/img/tabbar/addactive.png",
+				"text": "发布"
+			},
+			//#endif
+			//#ifndef MP-WEIXIN
+			{
+				"pagePath": "pages/tabbar/tabbar-3/tabbar-3",
+				"iconPath": "static/img/tabbar/add.png",
+				"selectedIconPath": "static/img/tabbar/addactive.png"
+			},
+			//#endif
+			{
+				"pagePath": "pages/tabbar/message/message",
+				"iconPath": "static/img/tabbar/news.png",
+				"selectedIconPath": "static/img/tabbar/newsactive.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/tabbar/mine/mine",
+				"iconPath": "static/img/tabbar/me.png",
+				"selectedIconPath": "static/img/tabbar/meactive.png",
+				"text": "我的"
+			}
+		]
+	}
+}
